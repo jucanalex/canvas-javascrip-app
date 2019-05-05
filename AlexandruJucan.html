@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta name="author" content="Alexandru Jucan">
+  <title>JavaScript Assignment</title>
+
+  <!--==================STYLES=======================-->
+    <style>
+      canvas {
+        border-style: solid;
+        border-width: 2px;
+  	  margin-right: 20px;
+      }
+
+  	#content {
+  		display: flex;
+  	}
+    </style>
+</head>
+
+<body>
+<!--====================ANIMATION AUDIO=================--->
+<audio id="helloAudio">
+  <source src="Hello.mp3" type="audio/mpeg">
+</audio>
+
+
+<!--=====================CONTENT==========================--->
+<h1> Meet Drake, the fish! </h1>
+
+<div id = "content">
+	<canvas id="mycanvas" width="600" height="600"></canvas>
+		<div id = "Description">
+			<h2> The buttons </h2>
+				<p> "KILL Drake" button will kill the fish and it will flow to the surface of the water </p>
+				<p> "Say Hello!" button will animate the fish mouth and he will say hello" </p>
+				<p> "SWIM" button will make the fish swim to the bottom of the aquarium and then to the left, using the inner fin </p>
+				<p> "Clear" button will reset the fish initial position </p>
+			<h2> The canvas clicks </h2>
+				<p> Click on the fish eye to make it blink. </p>
+				<p> Click on the fish body to enrage him for 1 second. </p>
+				<p> Click anywhere else on the canvas to teleport the fish randomly on the canvas. </p>
+		</div>
+</div>
+
+
+<!--=================BUTTONS==============================--->
+<p>
+    <button name="killbutton" id="killbutton">KILL Drake</button>
+    <button name="mouthbutton" id="mouthbutton">Say Hello!</button>
+    <button name="swimbutton" id="swimbutton">SWIM </button>
+    <button name="clearbutton" id="clearbutton">Clear</button>
+    <script src="AlexandruJucan.js"></script>
+</p>
+
+</body>
+</html>
